@@ -61,6 +61,10 @@ links:
 projects:
   - name: sndslib
     url: https://github.com/undersfx/sndslib
+  - name: senderscore cli
+    url: https://github.com/undersfx/senderscore-lookup
+  - name: Rocket Box
+    url: https://github.com/undersfx/RocketBox
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
