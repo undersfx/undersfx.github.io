@@ -59,11 +59,11 @@ links:
 
 # projects in header index
 projects:
-  - name: sndslib
+  - name: sndsib
     url: https://github.com/undersfx/sndslib
-  - name: senderscore cli
+  - name: senderscore-cli
     url: https://github.com/undersfx/senderscore-lookup
-  - name: Rocket Box
+  - name: rocket-box
     url: https://github.com/undersfx/RocketBox
 
 # exclude my node related stuff
