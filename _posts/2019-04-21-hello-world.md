@@ -41,21 +41,29 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque corporis, fuga s
 2. <a href="https://blog.openshift.com/best-practices-for-horizontal-application-scaling/" target="_blank">Best Practices For Horizontal Application Scaling</a>
 3. <a href="http://www.infoq.com/articles/ebay-scalability-best-practices" target="_blank">Scalability Best Practices: Lessons from eBay</a>
 4. <a href="http://stackoverflow.com/questions/5401992/what-does-scale-horizontally-and-scale-vertically-mean" target="_blank">What does scale horizontally and scale vertically mean?</a>
+
 ## Lorem ipsum dolor sit amet,res.
+
 {% highlight javascript %}
+
 use admin
 db.createUser{
 	user: "bonitao",
 		pwd: "2016bonitao",
 			roles: [{role: "userAdminAnyDatabase", db: "admin"}]
 			}
-			{% endhighlight %}
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque asperiores quam fuga tempora nisi consequatur, sequi cum voluptate deleniti quis, perspiciatis commodi beatae modi, iusto ab deserunt corrupti libero doloribus.
-			{% highlight javascript %}
-			db.updateUser("bonitao",
-			{
-				pwd: "2016bonitao",
-					roles: [{role: "read", db: "assets"}]
-					})
-					{% endhighlight %}
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni assumenda perferendis, iure atque. Tempore qui blanditiis autem necessitatibus natus soluta voluptas saepe totam animi voluptatum recusandae, nihil maiores et cumque.
+
+{% endhighlight %}
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque asperiores quam fuga tempora nisi consequatur, sequi cum voluptate deleniti quis, perspiciatis commodi beatae modi, iusto ab deserunt corrupti libero doloribus.
+
+{% highlight javascript %}
+
+db.updateUser("bonitao",
+{
+	pwd: "2016bonitao",
+		roles: [{role: "read", db: "assets"}]
+		})
+{% endhighlight %}
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni assumenda perferendis, iure atque. Tempore qui blanditiis autem necessitatibus natus soluta voluptas saepe totam animi voluptatum recusandae, nihil maiores et cumque.
