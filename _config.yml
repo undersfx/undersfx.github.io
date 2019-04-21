@@ -2,7 +2,7 @@
 title: Thiago Rodrigues
 description: "A blog about me and things that i build ..."
 baseurl: "" # for test: remove string '/space-jekyll-template' to ''
-url: "https://undersfx.github.io/" # for test: remove string to '' but in production: 'https://yourusername.github.io'
+url: "" # for test: remove string to '' but in production: 'https://yourusername.github.io', https://undersfx.github.io/
 
 # User settings
 username: undersfx
