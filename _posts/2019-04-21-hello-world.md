@@ -64,6 +64,7 @@ db.updateUser("bonitao",
 	pwd: "2016bonitao",
 		roles: [{role: "read", db: "assets"}]
 		})
+		
 {% endhighlight %}
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni assumenda perferendis, iure atque. Tempore qui blanditiis autem necessitatibus natus soluta voluptas saepe totam animi voluptatum recusandae, nihil maiores et cumque.
