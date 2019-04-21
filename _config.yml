@@ -1,12 +1,12 @@
 # Site settings
-title: Thiago Rodrigues
+title: Thiago 'undersfx' Rodrigues
 description: "A blog about me and things that i build ..."
 baseurl: "" # for test: remove string '/space-jekyll-template' to ''
 url: "" # for test: remove string to '' but in production: 'https://yourusername.github.io', https://undersfx.github.io/
 
 # User settings
 username: undersfx
-user_title: Thiago Rodrigues
+user_title: Thiago 'undersfx' Rodrigues
 email: thiago.rfr@hotmail.com
 twitter_username: undersfx
 github_username:  undersfx
