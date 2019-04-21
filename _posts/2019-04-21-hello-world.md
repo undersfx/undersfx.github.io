@@ -12,7 +12,7 @@ categories:
 
 <p class="music-read"><a href="https://www.youtube.com/watch?v=ih2xubMaZWI">Music for reading (YouTube)</a></p>
 
-<img src="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/raw.gif">
+<img src="https://media.giphy.com/media/3oEjHOWlyBm3IE1p7O/giphy.gif">
 
 ## Github ? why ?
 
