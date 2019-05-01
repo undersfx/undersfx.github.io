@@ -59,7 +59,7 @@ links:
 
 # projects in header index
 projects:
-  - name: sndsib
+  - name: sndslib
     url: https://github.com/undersfx/sndslib
   - name: senderscore-cli
     url: https://github.com/undersfx/senderscore-lookup
