@@ -63,8 +63,8 @@ projects:
     url: https://github.com/undersfx/sndslib
   - name: senderscore-cli
     url: https://github.com/undersfx/senderscore-lookup
-  - name: rocket-box
-    url: https://github.com/undersfx/RocketBox
+  - name: python-birds
+    url: https://github.com/undersfx/pythonbirds
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
