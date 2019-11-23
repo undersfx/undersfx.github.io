@@ -61,8 +61,8 @@ links:
 projects:
   - name: sndslib
     url: https://github.com/undersfx/sndslib
-  - name: senderscore-cli
-    url: https://github.com/undersfx/senderscore-lookup
+  - name: hetrixtools-cli
+    url: https://github.com/undersfx/hetrixtools-cli
   - name: python-birds
     url: https://github.com/undersfx/pythonbirds
 
