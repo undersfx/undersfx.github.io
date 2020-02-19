@@ -63,8 +63,8 @@ projects:
     url: https://github.com/undersfx/sndslib
   - name: hetrixtools-cli
     url: https://github.com/undersfx/hetrixtools-cli
-  - name: python-birds
-    url: https://github.com/undersfx/pythonbirds
+  - name: senderscore
+    url: https://github.com/undersfx/senderscore-lookup
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
