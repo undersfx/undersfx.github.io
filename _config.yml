@@ -2,7 +2,7 @@
 title: Thiago Rodrigues
 description: "A blog about me and things that i have build ..."
 baseurl: "" # for test: remove string '/space-jekyll-template' to ''
-url: "" # for test: remove string to '' but in production: 'https://yourusername.github.io', https://undersfx.github.io/
+url: "https://undersfx.github.io" # for test: remove string to '' but in production: 'https://yourusername.github.io'
 
 # User settings
 username: undersfx
@@ -36,12 +36,12 @@ links:
     - title: my posts
       url: /posts
       key_trigger: 2
-#     - title: series
-#       url: /series
-#       key_trigger: 3
-#     - title: tags
-#       url: /tags
-#       key_trigger: 4
+    - title: series
+      url: /series
+      key_trigger: 3
+    - title: tags
+      url: /tags
+      key_trigger: 4
     - title: about me
       url: /about
       key_trigger: 5
@@ -52,6 +52,7 @@ links:
       key_trigger: g
     - title: twitter
       url: http://www.twitter.com/undersfx
+      new_tab: true
       key_trigger: t
     - title: search
       url: ""
@@ -59,12 +60,12 @@ links:
 
 # projects in header index
 projects:
+  - name: senderscore
+    url: https://github.com/undersfx/senderscore-lookup
   - name: sndslib
     url: https://github.com/undersfx/sndslib
   - name: hetrixtools-cli
     url: https://github.com/undersfx/hetrixtools-cli
-  - name: senderscore
-    url: https://github.com/undersfx/senderscore-lookup
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
