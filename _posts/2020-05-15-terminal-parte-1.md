@@ -10,7 +10,7 @@ categories:
 - Terminal
 ---
 
-<p class="music-read"><a href="https://www.youtube.com/watch?v=uAOR6ib95kQ">Music for reading (YouTube)</a></p>
+<p class="music-read"><a href="https://www.youtube.com/watch?v=FGBhQbmPwH8&list=PL4C0F846412CF647F">Music for reading (YouTube)</a></p>
 
 <img src="https://media.giphy.com/media/14ut8PhnIwzros/giphy.gif">
 
