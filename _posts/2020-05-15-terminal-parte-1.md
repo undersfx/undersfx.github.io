@@ -346,6 +346,6 @@ Caso ache algum comando que não entenda, uma ferramenta legal para digerir em p
 ### Fontes para Estudar
 [Guia Foca](https://guiafoca.org/cgs/guia/iniciante/index.html)
 
-[Advanced Bash-Scripting Guide:](https://www.tldp.org/LDP/abs/html/basic.html)
+[Advanced Bash-Scripting Guide](https://www.tldp.org/LDP/abs/html/basic.html)
 
 [2-Minute Linux Tips by Sandra Henry-Stocker](https://www.youtube.com/playlist?list=PL7D2RMSmRO9J8OTpjFECi8DJiTQdd4hua)
