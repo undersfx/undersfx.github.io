@@ -36,6 +36,8 @@ Inicialmente os comandos precisavam ser passados via uma interface de linha de c
 
 Os sistemas baseados em [Unix](https://pt.wikipedia.org/wiki/Unix) criaram diversas ferramentas nesses modelos, deixando o shell baseado em texto muito poderoso. Tudo isso foi importado e aprimorado nas distribuições GNU/Linux, fazendo com o que esse recurso se tornasse uma das estrelas do sistema.
 
+<img src="https://images.fineartamerica.com/images-medium-large/sea-shell-by-the-sea-shore-paulette-thomas.jpg">
+
 Hoje em dia o principal shell utilizado em distribuições Linux é o “bash” acrônimo para [Bourne Again SHell](https://www.gnu.org/software/bash/), ele será o foco dos comando e recursos apresentados aqui por sua popularidade, no entanto, são compatíveis caso você use outros shells como fish, zsh, entre outros.
 
 Assim que você abre o bash, ele irá te mostrar o seu prompt inicial, algo parecido com isso: “nome@maquina:~$”. Esse texto é chamado de PS1, e é composto por algumas informações. São elas:
