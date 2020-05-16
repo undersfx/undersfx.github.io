@@ -253,7 +253,7 @@ Em arquivos grandes não queremos imprimir o tamanho total do arquivo em todos o
 
 “head” imprime o início ou a “cabeça” de um arquivo, da mesma forma “tail” imprime o final ou a “cauda” desses.
 
-<img src="">
+<img src="https://pbs.twimg.com/media/EJrbGinXUAEBPgG?format=jpg&name=medium">
 
 head e tail por padrão mostram 10 linhas
 ```bash
