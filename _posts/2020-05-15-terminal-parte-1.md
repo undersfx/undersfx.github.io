@@ -14,7 +14,7 @@ categories:
 
 <img src="https://media.giphy.com/media/14ut8PhnIwzros/giphy.gif">
 
-Olá Viajante, seja bem vindo. Se você caiu por aqui eu imagino que esteja querendo aprender sobre terminal linux, isso é ótimo, parabéns! Esse é um breve texto que eu escrevi com o intuito de ser uma base para você que tem, assim como eu tinha, medo ou qualquer sentimento primitivo assim que abre a tela preta de um sistema linux. Meu objetivo não é ensinar tudo que o terminal pode oferecer, nem fazer um overview avançado do assunto, mas simplesmente te deixar mais confortável toda vez que precisar utilizá-la.
+Olá Viajante, seja bem vindo. Se você caiu por aqui eu imagino que esteja querendo aprender sobre terminal linux, isso é ótimo, parabéns! Esse é um breve texto que eu escrevi (com a ajuda da minha mulher, bj amor) com o intuito de ser uma base para você que tem, assim como eu tinha, medo ou qualquer sentimento primitivo assim que abre a tela preta de um sistema linux. Meu objetivo não é ensinar tudo que o terminal pode oferecer, nem fazer um overview avançado do assunto, mas simplesmente te deixar mais confortável toda vez que precisar utilizá-la.
 
 Abaixo, eu farei uma breve introdução a assuntos que eu acho relevantes antes de você começar de fato a hackear pelo terminal. Caso você julgue desnecessário, pule para a parte “comando básicos”. Fique a vontade e divirta-se.
 
