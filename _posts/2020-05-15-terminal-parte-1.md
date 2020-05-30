@@ -197,23 +197,14 @@ Abrir um arquivo com o vim (se não existir, será criado ao salvar)
 vim todo.txt
 ```
 
-Editar o arquivo:
-
-Tecla "i"
-
-Teste de Edição
-
-Tecla "Esc"
-
-
-No modo Normal vários comandos podem ser chamados, os principais são:
+Para editar o arquivo, primeiro acesse o modo de inserção com a tecla "i". Faça as alterações que desejar e volte ao modo normal com a tecla "Esc". No modo Normal vários comandos podem ser chamados, os principais são:
 
 Sair do editor
 ```bash
 :q
 ```
 
-Caso você tenha editado o arquivo como fizemos acima, o vim irá reclamar se você tentar sair sem salvar:
+Caso você tenha editado o arquivo como fizemos acima, o vim irá reclamar se você tentar sair sem salvar. Caso você tenha certeza que não queer o conteúdo alterado, você precisará deixar explicido que quer sair sem salvar.
 
 Forçar saída (sem salvar):
 ```bash
