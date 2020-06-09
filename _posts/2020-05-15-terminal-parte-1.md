@@ -78,6 +78,20 @@ Onde “ls” é o comando que estamos chamando, “-l” é a flag que altera o
 
 Após essa “breve” introdução, vamos começar a utilizar nossos primeiros comandos.
 
+### Olá Mundo
+
+Dizem que ao iniciar com qualquer nova tecnologia, por questão de sorte, a primeira coisa a se fazer é escrever "hello world" na tela do computador. Mesmo sendo uma bobagem, é uma ótima oportunidade para falar do nosso primeiro comando, o "echo".
+
+O comando "echo" retornará o que for passado para ele como input, ou seja, ele literalmente funciona como o eco acustico.
+
+Então, para começarmos com o pé direito, vamos escrever nosso "hello world".
+
+```bash
+echo hello world
+```
+
+Devidamente benzidos, vamos em frente.
+
 
 ### ls, mkdir, cd e pwd
 
