@@ -336,9 +336,9 @@ grep foo bar.txt | wc -l
 
 Dessa forma, o resultado da expressão “grep foo bar.txt” que seria colocado no stdout é direcionado para o input do comando “wc -l” que espera com um fluxo de texto vindo do stdin e faz a contagem de suas linhas.
 
-## “&&” e “||”
+## “&&” e “\|\|”
 
-Os caracteres “&&” e “||” formam os operadores lógicos E (AND) e OU (OR) respectivamente. Normalmente em shell script são utilizados para fazer declarações com comparações. No entanto, podem ser utilizados no terminal para encadear comandos quando queremos controle sobre o que vai ser executado em caso de falha ou sucesso.
+Os caracteres “&&” e “\|\|” formam os operadores lógicos E (AND) e OU (OR) respectivamente. Normalmente em shell script são utilizados para fazer declarações com comparações. No entanto, podem ser utilizados no terminal para encadear comandos quando queremos controle sobre o que vai ser executado em caso de falha ou sucesso.
 
 De acordo com o POSIX, o comando retornará um código de saída (ou “exit code”) ao sistema sempre que terminar sua execução. Esse código é um número de 0 a 255, onde 0 é o indicador de sucesso e os mais número são notificações de diferentes erros.
 
@@ -348,13 +348,13 @@ Por exemplo, numa condição E (AND) a segunda condição só será verificada c
 
 Da mesma forma, numa condição OU (OR) a segunda condição só será verificada caso a primeira seja falsa, pois caso contrário, já sabemos que o resultado da operação será verdadeiro.
 
-Usando isso ao nosso favor para criar comandos compostos. Quando quisermos que o segundo comando execute apenas na certeza que o primeiro funcionou, utilizamos “&&”
+Usando isso ao nosso favor para criar comandos compostos. Quando quisermos que o segundo comando execute apenas na certeza que o primeiro funcionou, utilizamos “&&”:
 
 ```bash
 wc -l alice.txt && echo 'Deu certo!'
 ```
 
-Da mesma forma, quando quisermos que o segundo comando rode apenas em caso de falha do primeiro, utilizamos “||”
+Da mesma forma, quando quisermos que o segundo comando rode apenas em caso de falha do primeiro, utilizamos “\|\|”:
 
 ```bash
 wc -l rabbit.txt || echo 'Deu ruim =('
