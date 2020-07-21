@@ -363,4 +363,4 @@ Caso ache algum comando que não entenda, uma ferramenta legal para dividi-lo em
 
 
 ### Agradecimentos
-Revisão por Emily Faccin](https://github.com/emilyfaccin)
+Revisão por [Emily Faccin](https://github.com/emilyfaccin)
