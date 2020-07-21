@@ -20,7 +20,7 @@ Nessa parte eu gostaria de mostrar alguns comandos adicionais e principalmente f
 
 Como vamos falar de comando de filtragem, transformação e visualização de texto, será necessário termos um arquivo de tamanho razoável para visualizarmos os resultados. Nos meus exemplos abaixo, eu usarei o arquivo chamado “alice.txt”, que terá o conteúdo do livro “Alice's Adventures in Wonderland” de Lewis Carroll, que é disponível gratuitamente na internet através do Projeto Gutenberg. Se quiser utilizar o mesmo arquivo, ele está disponível [aqui](http://www.gutenberg.org/files/11/11.txt). Caso não conheça esse projeto, fica a dica, é um acervo de conteúdo com mais de 60 mil livros “open source”. :)
 
-Como somos ninjas do terminal, ou pelo menos estamos no caminho para isso. Vamos baixar o livro e salvar num arquivo local usando o terminal, conseguimos isso com o comando abaixo:
+Como somos ninjas do terminal, ou pelo menos estamos no caminho para isso, vamos baixar o livro e salvar num arquivo local usando o terminal. Conseguimos isso com o comando abaixo:
 
 ```bash
 curl http://www.gutenberg.org/files/11/11.txt > alice.txt
@@ -28,7 +28,7 @@ curl http://www.gutenberg.org/files/11/11.txt > alice.txt
 
 O comando curl é uma ferramenta de transferência de dados para vários protocolos, entre eles HTTP e HTTPS. Então conseguimos acessar o conteúdo do arquivo hospedado publicamente na internet apenas passando sua URL. O restante do comando serve para escrever a saída do comando “curl” em um arquivo chamado “alice.txt”. Mas calma, isso fará mais sentido quando falarmos sobre operadores ao decorrer do texto.
 
-Para saber se deu certo você pode olhar o conteúdo do arquivos com um dos comandos que mostrei na primeira parte. Eu usarei o “wc” para saber quantas linhas tem meu arquivo “alice.txt”
+Para saber se deu certo você pode olhar o conteúdo do arquivo com um dos comandos que mostrei na primeira parte. Eu usarei o “wc” para saber quantas linhas tem meu arquivo “alice.txt”
 
 ```bash
 wc -l alice.txt
@@ -41,7 +41,7 @@ Agora vamos começar a brincar com esses dados.
 
 ## grep
 
-O comando “grep” funciona como um filtro, ele recebe um padrão como parâmetro (que pode ser uma string uma expressão regular ou até outro arquivo) e retorna todas as linhas que coincidirem com esse padrão dentro do conteúdo que foi passado a ele, como um arquivo ou o output de outro comando. Isso é extremamente útil quando trabalhamos com blocos grandes de texto pois o retorno é rápido e eficaz. Isso ajuda a filtrarmos informações importantes de um log gigantesco por exemplo.
+O comando “grep” funciona como um filtro. Ele recebe um padrão como parâmetro (que pode ser uma string, uma expressão regular ou até outro arquivo) e retorna todas as linhas que coincidirem com esse padrão dentro do conteúdo que foi passado a ele, como um arquivo ou o output de outro comando. Isso é extremamente útil quando trabalhamos com blocos grandes de texto, pois o retorno é rápido e eficaz. Isso ajuda a filtrarmos informações importantes de um log gigantesco, por exemplo.
 
 Filtrar padrão “alice” dentro do arquivos “alice.txt”
 
@@ -97,7 +97,7 @@ No exemplo acima, usei um padrão básico que procura por “alice” ou “rabb
 
 Expressão Regular, chamada também de RegEx, é uma linguagem formal para identificar cadeias de caracteres, isso quer dizer que você escreve uma regra que vai bater apenas com a parte que você quer de um texto. Regex são um canivete suíço para qualquer trabalho com texto, facilitando a procura e filtragem. 
 
-Além de várias ferramentas aceitarem pesquisa por regex como Sublime, Notepad++, Vim, entre outras. É uma ótima ferramenta para incluir em seu arsenal. Se tiver interesse no assunto, uma ótima fonte de dados é o site do grande [Aurélio Jargas](https://aurelio.net/regex/).
+Várias ferramentas aceitam pesquisa por regex, como Sublime, Notepad++, Vim, entre outras. É uma ótima ferramenta para incluir em seu arsenal. Se tiver interesse no assunto, uma ótima fonte de dados é o site do grande [Aurélio Jargas](https://aurelio.net/regex/).
 
 
 ## awk
@@ -124,7 +124,7 @@ A variável $NF é um atalho para total de campos reconhecidos. Se usado como í
 awk '{print $NF}' alice.txt
 ```
 
-Para usar um separador customizado (diferente do espaço) precisamos passar uma string a flag “-F”. Essa opção é ótima quando está se trabalhando com logs de máquina bem formatados e com o mesmo número de campos, você passa o separador que seu log utiliza e tem cada parâmetro salvo em uma variável para uso.
+Para usar um separador customizado (diferente do espaço) precisamos passar uma string para a flag “-F”. Essa opção é ótima quando está se trabalhando com logs de máquina bem formatados e com o mesmo número de campos. Você passa o separador que seu log utiliza e tem cada parâmetro salvo em uma variável para uso.
 
 Por exemplo, vamos usar vírgula como separador:
 
@@ -173,7 +173,7 @@ Em resumo, input é todo o conteúdo passado para o comando que você chama no t
 
 Como exemplo, vamos analisar o seguinte comando: grep exemplo.com log.txt
 
-grep é o “comando” que chama o binário que está em “/bin/grep” e passa como argumento para esse programa a string “exemplo.com” e o caminho do arquivo log.txt que será lido e seu conteúdo processado. Posteriormente será colocado na tela todas as linhas que baterem com o padrão “exemplo.com” dentro do arquivo, esse é o output desse comando.
+grep é o “comando” que chama o binário que está em “/bin/grep” e passa como argumento para esse programa a string “exemplo.com” e o caminho do arquivo log.txt que será lido e seu conteúdo processado. Posteriormente será colocado na tela todas as linhas que baterem com o padrão “exemplo.com” dentro do arquivo. Esse é o output desse comando.
 
 (Se quiser saber mais como funciona a “chamada” dos comandos, dê uma lida sobre a variável de ambiente PATH. Como é um assunto também mais complexo, não abordarei dessa vez.)
 
@@ -191,7 +191,7 @@ Aliás, por falar em file descriptors, é importante pelo menos conhecê-los par
 
 # File descriptors
 
-File descriptors são uma abstração para acesso a um arquivo ou recursos de input/output no sistema como pipes e sockets, são representados por um número inteiro não negativo.
+File descriptors são uma abstração para acesso a um arquivo ou recursos de input/output no sistema como pipes e sockets, e são representados por um número inteiro não negativo.
 
 O fluxo de dados lidos do stdin e escritos no stdout e stderr são administrados pelo sistema através dos file descriptors reservados 0, 1 e 2 respectivamente. Isso quer dizer que quando existe um input de um comando através do stdin, ele é escrito no file descriptor 0 para ser “traduzido” e após executar seus procedimentos ele escreverá o resultado nos files descriptors 1 ou 2 de acordo com o resultado.
 
@@ -304,7 +304,7 @@ comando arquivo.txt > arquivo.txt
 
 É importante saber que essa construção não irá funcionar, e pior que isso, irá apagar o conteúdo de “arquivo.txt”. 
 
-Isso acontece porque a abertura dos arquivos é feita _antes_ da execução do comando. Isso quer dizer que o arquivo será primeiro aberto para escrita e como ele já existe será “truncado” para tamanho zero, perdendo seu conteúdo. Após isso o comando será executado utilizando o conteúdo do arquivo, que neste momento não existe mais, resultando num resultado não esperado e normalmente em branco também que será por fim escrito e salvo no arquivo aberto.
+Isso acontece porque a abertura dos arquivos é feita _antes_ da execução do comando. Isso quer dizer que o arquivo será primeiro aberto para escrita e como ele já existe será “truncado” para tamanho zero, perdendo seu conteúdo. Após isso o comando será executado utilizando o conteúdo do arquivo, que neste momento não existe mais, resultando em um resultado não esperado e normalmente em branco também que será por fim escrito e salvo no arquivo aberto.
 
 Para não cair nessa cilada ~bino~ utilize outro arquivo temporário e faça a remoção do mesmo após a execução ou substitua renomeando o arquivo temporário:
 
@@ -322,9 +322,9 @@ comando arquivo.txt > tmp.txt && mv tmp.txt arquivo.txt
 
 ## “|” (Pipe)
 
-O pipe é certamente o operador de controle mais utilizado no terminal linux, seu efeito serve para “ligar” o output de um comando como input de outro. Simples.
+O pipe é certamente o operador de controle mais utilizado no terminal linux. Seu efeito serve para “ligar” o output de um comando como input de outro. Simples.
 
-“Pipe” quer dizer algo como “tubo” ou “tubulação”, imagine que estamos criando uma tubulação entre a saída do comando anterior com a entrada do próximo comando. Dessa forma, você pode fazer um filtro de uma informação em um arquivo com grep por exemplo e na mesma linha de comando tratar essa informação com awk, filtrar novamente com outro grep, contar com wc, fazer tudo que seja necessário para tirar a informação que deseja.
+“Pipe” quer dizer algo como “tubo” ou “tubulação”, imagine que estamos criando uma tubulação entre a saída do comando anterior com a entrada do próximo comando. Dessa forma, você pode fazer um filtro de uma informação em um arquivo com grep, por exemplo, e na mesma linha de comando tratar essa informação com awk, filtrar novamente com outro grep, contar com wc, fazendo tudo que seja necessário para tirar a informação que deseja.
 
 Exemplo:
 
@@ -340,15 +340,15 @@ Dessa forma, o resultado da expressão “grep foo bar.txt” que seria colocado
 
 Os caracteres “&&” e “\|\|” formam os operadores lógicos E (AND) e OU (OR) respectivamente. Normalmente em shell script são utilizados para fazer declarações com comparações. No entanto, podem ser utilizados no terminal para encadear comandos quando queremos controle sobre o que vai ser executado em caso de falha ou sucesso.
 
-De acordo com o POSIX, o comando retornará um código de saída (ou “exit code”) ao sistema sempre que terminar sua execução. Esse código é um número de 0 a 255, onde 0 é o indicador de sucesso e os mais número são notificações de diferentes erros.
+De acordo com o POSIX, o comando retornará um código de saída (ou “exit code”) ao sistema sempre que terminar sua execução. Esse código é um número de 0 a 255, onde 0 é o indicador de sucesso e os demais números são notificações de diferentes erros.
 
-Pela característica de serem [operadores de curto-circuito](https://pt.wikipedia.org/wiki/Avalia%C3%A7%C3%A3o_de_curto-circuito), a avaliação será feita da esquerda para a direita e os comandos adicionais serão executados apenas se o primeiro argumento não for o suficiente para determinar o valor da expressão.
+Pela característica de serem [operadores de curto-circuito](https://pt.wikipedia.org/wiki/Avalia%C3%A7%C3%A3o_de_curto-circuito), a avaliação será feita da esquerda para a direita e os comandos adicionais serão executados apenas se o primeiro argumento não for suficiente para determinar o valor da expressão.
 
 Por exemplo, numa condição E (AND) a segunda condição só será verificada caso a primeira seja verdadeira, pois caso contrário, apenas com o primeiro valor já sabemos que o resultado da condição será falso. 
 
 Da mesma forma, numa condição OU (OR) a segunda condição só será verificada caso a primeira seja falsa, pois caso contrário, já sabemos que o resultado da operação será verdadeiro.
 
-Usando isso ao nosso favor para criar comandos compostos. Quando quisermos que o segundo comando execute apenas na certeza que o primeiro funcionou, utilizamos “&&”:
+Usando isso ao nosso favor para criar comandos compostos, quando quisermos que o segundo comando execute apenas na certeza que o primeiro funcionou, utilizamos “&&”:
 
 ```bash
 wc -l alice.txt && echo 'Deu certo!'
@@ -363,7 +363,7 @@ wc -l rabbit.txt || echo 'Deu ruim =('
 
 ## “&”
 
-Por usar o mesmo caractere encontrado no operador E (AND), podemos confundir com um funcionamento parecido, no entanto, esse operador serve para rodar um comando em “background”. Isso quer dizer que o mesmo não irá bloquear a entrada de novos comandos no terminal até sua finalização.
+Por usar o mesmo caractere encontrado no operador E (AND), podemos confundir com um funcionamento parecido. No entanto, esse operador serve para rodar um comando em “background”. Isso quer dizer que o mesmo não irá bloquear a entrada de novos comandos no terminal até sua finalização.
 
 Um bom exemplo é o comando “sleep” que aguarda uma quantidade de tempo e retorna um status de sucesso após esse período. Se fizermos uma composição com sleep e outro comando podemos ver como o terminal é bloqueado enquanto o sleep está executando:
 
