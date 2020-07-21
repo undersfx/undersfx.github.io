@@ -389,3 +389,6 @@ Acredito que com todos esses conceitos e comandos, vocês poderão criar suas pr
 Se quiserem saber mais sobre redirecionamentos e operadores da linha de comando recomendo fortemente uma lida [nesse resumão](https://unix.stackexchange.com/questions/159513/what-are-the-shells-control-and-redirection-operators/159514#159514) feito pelo usuário “terdon” no stackoverflow.
 
 Se quiser mergulhar ainda mais fundo, recomendo esse tabelão com todos os [caracteres especiais](https://www.tldp.org/LDP/abs/html/special-chars.html) e o que eles fazem.
+
+### Agradecimentos
+Revisão por [Emily Faccin](https://github.com/emilyfaccin)
