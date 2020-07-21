@@ -360,3 +360,7 @@ Caso ache algum comando que não entenda, uma ferramenta legal para dividi-lo em
 [Advanced Bash-Scripting Guide](https://www.tldp.org/LDP/abs/html/basic.html)
 
 [2-Minute Linux Tips by Sandra Henry-Stocker](https://www.youtube.com/playlist?list=PL7D2RMSmRO9J8OTpjFECi8DJiTQdd4hua)
+
+
+### Agradecimentos
+Revisão por Emily Faccin](https://github.com/emilyfaccin)
