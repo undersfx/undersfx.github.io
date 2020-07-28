@@ -361,7 +361,7 @@ man ls
 
 Como última alternativa, nosso amigo de todas as horas: [Google](www.google.com.br)
 
-Caso ache algum comando que não entenda, uma ferramenta legal para dividi-lo em partes e entender o que está acontecendo é o explainshell.com. Basicamente essa ferramenta lê todo o comando e mostra o que cada parte está fazendo.
+Caso ache algum comando que não entenda, uma ferramenta legal para dividi-lo em partes e entender o que está acontecendo é o [explainshell.com](https://explainshell.com/). Basicamente essa ferramenta lê todo o comando e mostra o que cada parte está fazendo.
 
 ### Fontes para Estudar
 [Guia Foca](https://guiafoca.org/cgs/guia/iniciante/index.html)
