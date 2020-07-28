@@ -326,15 +326,24 @@ history
 ```
 
 Exemplo de Saída:
+
+```bash
 1    mkdir meu_diretorio
 2    cd meu_diretorio
 3    pwd
+```
 
 Chamar o comando pwd novamente
 ```bash
 !3
 ```
 
+
+Isso é tudo por hoje, recomendo criar suas próprias combinações de comandos e brincar com cada um deles. 
+
+Acredite, você só lembrará de usar comandos que você usa com certa frequência então é sempre bom exercitar a mente os usando.
+
+Quando estiver confiante para o próximo passso, a [parte dois](https://undersfx.github.io/terminal-parte-2/) te aguarda.
 
 ### Ajuda
 
@@ -360,7 +369,6 @@ Caso ache algum comando que não entenda, uma ferramenta legal para dividi-lo em
 [Advanced Bash-Scripting Guide](https://www.tldp.org/LDP/abs/html/basic.html)
 
 [2-Minute Linux Tips by Sandra Henry-Stocker](https://www.youtube.com/playlist?list=PL7D2RMSmRO9J8OTpjFECi8DJiTQdd4hua)
-
 
 ### Agradecimentos
 Revisão por [Emily Faccin](https://github.com/emilyfaccin)
