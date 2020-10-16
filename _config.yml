@@ -60,12 +60,12 @@ links:
 
 # projects in header index
 projects:
-  - name: senderscore
-    url: https://github.com/undersfx/senderscore-lookup
   - name: sndslib
     url: https://github.com/undersfx/sndslib
-  - name: hetrixtools-cli
-    url: https://github.com/undersfx/hetrixtools-cli
+  - name: senderscore lookup
+    url: https://github.com/undersfx/senderscore-lookup    
+  - name: Django Course
+    url: https://github.com/undersfx/django-pro
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
