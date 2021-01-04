@@ -10,7 +10,7 @@ categories:
 - Terminal
 ---
 
-<p class="music-read"><a href="https://www.youtube.com/watch?v=8NCdgTwolyA&list=PLx3lI6G-Hgi0sXyW09fN_iJ6k2rECqG4t&index=2" target="_blank">Music for reading (YouTube)</a></p>
+<p class="music-read"><a href="https://youtu.be/O4fbxCJ_obQ" target="_blank">Music for reading (YouTube)</a></p>
 
 Olá Viajante, seja bem vindo. Legal ter você de volta a essa aventura. Se você pegou o bonde andando e está querendo aprender mais sobre o terminal linux, pode ler a [primeira parte](https://undersfx.github.io/terminal-parte-1/) onde eu dou um contexto geral e falo o básico sobre o assunto.
 
