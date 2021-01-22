@@ -64,7 +64,7 @@ projects:
     url: https://github.com/undersfx/sndslib
   - name: senderscore lookup
     url: https://github.com/undersfx/senderscore-lookup    
-  - name: Django Course
+  - name: Django Pro
     url: https://github.com/undersfx/django-pro
 
 # exclude my node related stuff
