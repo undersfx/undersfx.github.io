@@ -18,7 +18,7 @@ Nessa parte eu gostaria de mostrar alguns comandos adicionais e principalmente f
 
 <img src="https://media.giphy.com/media/jy1SW46Ovt3CLIsbo6/giphy.gif">
 
-Como vamos falar de comando de filtragem, transformação e visualização de texto, será necessário termos um arquivo de tamanho razoável para visualizarmos os resultados. Nos meus exemplos abaixo, eu usarei o arquivo chamado “alice.txt”, que terá o conteúdo do livro “Alice's Adventures in Wonderland” de Lewis Carroll, que é disponível gratuitamente na internet através do Projeto Gutenberg. Se quiser utilizar o mesmo arquivo, ele está disponível [aqui](http://www.gutenberg.org/files/11/11.txt). Caso não conheça esse projeto, fica a dica, é um acervo de conteúdo com mais de 60 mil livros “open source”. :)
+Como vamos falar de comando de filtragem, transformação e visualização de texto, será necessário termos um arquivo de tamanho razoável para visualizarmos os resultados. Nos meus exemplos abaixo, eu usarei o arquivo chamado “alice.txt”, que terá o conteúdo do livro “Alice's Adventures in Wonderland” de Lewis Carroll, que é disponível gratuitamente na internet através do Projeto Gutenberg. Se quiser utilizar o mesmo arquivo, ele está disponível [aqui](https://www.gutenberg.org/files/28885/28885.txt). Caso não conheça esse projeto, fica a dica, é um acervo de conteúdo com mais de 60 mil livros “open source”. :)
 
 Como somos ninjas do terminal, ou pelo menos estamos no caminho para isso, vamos baixar o livro e salvar num arquivo local usando o terminal. Conseguimos isso com o comando abaixo:
 
