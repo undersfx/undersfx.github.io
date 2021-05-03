@@ -23,10 +23,12 @@ Como vamos falar de comando de filtragem, transformação e visualização de te
 Como somos ninjas do terminal, ou pelo menos estamos no caminho para isso, vamos baixar o livro e salvar num arquivo local usando o terminal. Conseguimos isso com o comando abaixo:
 
 ```bash
-curl http://www.gutenberg.org/files/11/11.txt > alice.txt
+curl https://www.gutenberg.org/files/28885/28885.txt > alice.txt
 ```
 
 O comando curl é uma ferramenta de transferência de dados para vários protocolos, entre eles HTTP e HTTPS. Então conseguimos acessar o conteúdo do arquivo hospedado publicamente na internet apenas passando sua URL. O restante do comando serve para escrever a saída do comando “curl” em um arquivo chamado “alice.txt”. Mas calma, isso fará mais sentido quando falarmos sobre operadores ao decorrer do texto.
+
+Caso o terminal retorne algo como `curl: command not found`, provavelmente você não tem o curl instalado. Nesse caso você pode abrir o link para o documento no navegador e copiar o conteúdo para criar o arquivo "normalmente".
 
 Para saber se deu certo você pode olhar o conteúdo do arquivo com um dos comandos que mostrei na primeira parte. Eu usarei o “wc” para saber quantas linhas tem meu arquivo “alice.txt”
 
@@ -34,7 +36,7 @@ Para saber se deu certo você pode olhar o conteúdo do arquivo com um dos coman
 wc -l alice.txt
 ```
 
-Se a saída for um número diferentes de zero (no nosso caso 3736) o comando trouxe todo o conteúdo de deveria de maneira correta.
+Se a saída for um número diferentes de zero (no nosso caso 4052) o comando trouxe todo o conteúdo de deveria de maneira correta.
 
 Agora vamos começar a brincar com esses dados.
 
